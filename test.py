@@ -15,7 +15,7 @@ from pymongo import MongoClient, ASCENDING
 from pymongo.errors import DuplicateKeyError
 
 # ── Config ────────────────────────────────────────────────────────────────────
-MONGO_URI   = os.getenv("MONGO_URI", "mongodb://localhost:27017/journal30")
+MONGO_URI   = os.getenv("MONGO_URI", "mongodb+srv://sakshi-dasavekar:sakshi@1024@cluster0.70iweve.mongodb.net/?appName=Cluster0")
 JWT_SECRET  = os.getenv("JWT_SECRET", "change_me_in_production")
 JWT_EXPIRY  = 30  # days
 
